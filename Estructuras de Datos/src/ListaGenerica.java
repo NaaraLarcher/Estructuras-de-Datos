@@ -69,9 +69,11 @@ public class ListaGenerica {
             raiz = raiz.siguiente;
         } else {
             Nodo recorrer = raiz;
+
             for (int i = 1; i < posicion - 1; i++) {
                 recorrer = recorrer.siguiente;
             }
+            
             Nodo proximo = recorrer.siguiente;
             informacion = proximo.info;
             recorrer.siguiente = proximo.siguiente;
