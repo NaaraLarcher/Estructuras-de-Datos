@@ -1,5 +1,4 @@
 public class ListaGenerica2 {
-
     class Nodo {
         int info;
         Nodo siguiente;

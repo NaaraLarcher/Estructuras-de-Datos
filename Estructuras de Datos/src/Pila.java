@@ -1,5 +1,4 @@
-public class Pila {
-    
+public class Pila {    
     class Nodo {
         int info;
         Nodo siguiente;

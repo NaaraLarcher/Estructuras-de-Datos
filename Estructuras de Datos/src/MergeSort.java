@@ -1,5 +1,4 @@
-public class MergeSort {
-    
+public class MergeSort {    
     public void mergeSort(int[] arr) {
         if (arr.length > 1) {
             int mid = arr.length / 2;

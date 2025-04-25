@@ -1,5 +1,4 @@
 public class Cola2 {
-    
     class Nodo {
         int info;
         Nodo siguiente;
