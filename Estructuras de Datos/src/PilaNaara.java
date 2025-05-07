@@ -1,27 +1,30 @@
-class Nodo {
-    int info; 
-    Nodo sig; 
-}
-
-private Nodo raiz; 
-
-Pila() {
-    raiz = null;
-}
-
-public void insertar(int x) {
-    Nodo nuevo;
-    nuevo = new Nodo();
-    nuevo.info = x;
-    if (raiz == null)
-    {
-        nuevo.sig = null;
-        raiz = nuevo;
+class PilaNaara {
+    class Nodo {
+        int info; 
+        Nodo sig; 
     }
-    else
-    {
-        nuevo.sig = raiz;
-        raiz = nuevo;
+    
+    private Nodo raiz; 
+    
+    PilaNaara() {
+        raiz = null;
+    }
+    
+    public void insertar(int x) {
+        Nodo nuevo;
+        nuevo = new Nodo();
+        nuevo.info = x;
+        if (raiz == null)
+        {
+            nuevo.sig = null;
+            raiz = nuevo;
+        }
+        else
+        {
+            nuevo.sig = raiz;
+            raiz = nuevo;
+        }
+    
     }
 }
 
